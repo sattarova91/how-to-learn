@@ -29,3 +29,20 @@
     margin-right: 0;
     margin-top: 80px;
 }
+
+ .logo {
+  border: 1px solid blue;
+
+
+}
+
+.logo__place_header {
+  position: absolute;
+  background-image: url(../images/logo_place_header.svg);
+  top: 30px;
+  left: 64px;
+  height: 32px;
+  width: 183px;
+  z-index: 99;
+}
+
