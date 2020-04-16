@@ -13,27 +13,9 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
+    border: 1px dashed green;
+    display: flex;
     /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-    height: 568px;
-    width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-    width: 200px;
-    color: white;
-    margin-right: 0;
-    margin-top: 80px;
-}
-
- .logo {
-  border: 1px solid blue;
-
-
 }
 
 .logo__place_header {
@@ -45,4 +27,23 @@
   width: 183px;
   z-index: 99;
 }
+
+div{
+  border : 1px solid red;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  border: 1px solid black;
+  margin-left: 64px;
+}
+
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  margin: auto;
+  width: 730px;
 
