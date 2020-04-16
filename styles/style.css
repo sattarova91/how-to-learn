@@ -46,4 +46,18 @@ div{
   font-weight: bold;
   margin: auto;
   width: 730px;
+}
 
+.subtitle {
+  border: 1px solid violet;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-style: normal;
+  font-size: 18px;
+}
