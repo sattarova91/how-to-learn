@@ -13,8 +13,8 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    border: 1px dashed green;
     display: flex;
+    background-color: #f2f2f2;
     /* выше установили ограничения для секции */
 }
 
@@ -28,15 +28,11 @@
   z-index: 99;
 }
 
-div{
-  border : 1px solid red;
-}
 
 .title {
   display: flex;
   flex-direction: row;
   align-self: center;
-  border: 1px solid black;
   margin-left: 64px;
 }
 
@@ -49,7 +45,7 @@ div{
 }
 
 .subtitle {
-  border: 1px solid violet;
+
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -68,4 +64,14 @@ div{
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 50;
+}
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  right: 0px;
+  top: 64px;
+  background-color: #2f80ed;
 }
