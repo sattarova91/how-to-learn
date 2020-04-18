@@ -120,3 +120,63 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.digits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-title{
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  margin-bottom: 0;
+  justify-content: center;
+  display: flex;
+
+}
+
+.section-subtitle{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 20px auto 0px auto;
+  justify-content: center;
+  display: flex;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.table__footnote {
+  margin: 20px auto 0px auto;
+}
