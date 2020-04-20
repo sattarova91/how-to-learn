@@ -2,7 +2,7 @@
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
     /* поэтому выше установлена минимальная ширина страницы */
-    max-width: 1600px;
+    max-  : 1600px;
     /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
@@ -202,11 +202,11 @@
 }
 
 .feinman {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 90px;
+  position: relative;
+  padding-top: 100px;
+  height: 790px;
+  background: #f2f2f2 url(../images/feynman.png) no-repeat bottom left;
+  background-size: 867px 637px;
 }
 
 .feinman__title {
@@ -215,32 +215,27 @@
   font-weight: bold;
   width: 648px;
   z-index: 99;
-
-}
+  text-align: center;
+  margin: 0 auto 0 auto;
+  }
 
 .feinman__subtitle {
-  margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 99;
+  margin: 70px;
+  text-align: center;
 }
+
 
 .feinman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   position: absolute;
-  height: 50%;
+  top: 50%;
   right: 48px;
-}
-
-.faiman__illustration {
-  width: 867px;
-  height: 637px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
 }
 
 .kaufman {
