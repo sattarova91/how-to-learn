@@ -18,9 +18,6 @@
     /* выше установили ограничения для секции */
 }
 
-.logo {
-  width: 183px;
-}
 
 .logo__place_header {
   position: absolute;
@@ -28,27 +25,17 @@
   top: 30px;
   left: 64px;
   height: 32px;
-}
+  width: 183px;
 
-.title {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  margin-left: 64px;
 }
 
 .header__title {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin: auto;
+  margin-left: 64px;
   width: 730px;
-}
-
-.subtitle {
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
+  align-self: center;
 }
 
 .header__subtitle {
@@ -56,6 +43,9 @@
   line-height: 25px;
   font-style: normal;
   font-size: 18px;
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
   left: 64px;
   bottom: 30px;
 }
@@ -175,6 +165,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 100px;
+  padding: 0px;
 }
 
 .table_theme_dark {
@@ -184,6 +175,8 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  list-style-type: none;
+
 }
 
 .table__cell_theme_dark {
@@ -191,6 +184,7 @@
   z-index: 50;
   width: 200px;
   margin-top: 80px;
+  list-style-type: none;
 }
 
 .table__heading {
@@ -288,7 +282,9 @@
 
 .footer__place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  height: 35px;
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 184px;
 }
 
 .footer__author {
