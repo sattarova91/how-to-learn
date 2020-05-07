@@ -17,17 +17,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  background-color: #f2f2f2;
-  position: relative;
-  overflow: hidden;
-
-}
-
 .logo {
   width: 183px;
   background-repeat: no-repeat;
@@ -42,53 +31,6 @@
   width: 183px;
 }
 
-.header__title {
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  margin-left: 64px;
-  width: 730px;
-  align-self: center;
-}
-
-.header__subtitle {
-  width: 388px;
-  line-height: 25px;
-  font-style: normal;
-  font-size: 18px;
-  left: 64px;
-  bottom: 30px;
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-}
-
-.header__link {
-  text-decoration: none;
-  color:  #2f80ed;
-}
-
-.main-illustration {
-  height: 608px;
-  width: 765px;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  z-index: 50;
-}
-
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  position: absolute;
-  right: 0px;
-  top: 64px;
-  background-color: #2f80ed;
-  transform: rotate(-15deg);
-  -webkit-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
-}
 .rotation {
   animation: rotation 20s linear infinite;
   -webkit-animation: rotation 20s linear infinite;
