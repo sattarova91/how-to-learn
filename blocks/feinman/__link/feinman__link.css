@@ -8,3 +8,8 @@
   text-decoration: none;
   color:  #000000;
 }
+
+.feinman__link:hover {
+  transition: color .5s linear;
+  color: #7c7c7c;
+}
