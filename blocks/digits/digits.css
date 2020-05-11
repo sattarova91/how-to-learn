@@ -1,0 +1,10 @@
+@import url(./table/table.css);
+
+.digits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
