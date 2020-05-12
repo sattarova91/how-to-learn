@@ -2,4 +2,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.table__text:last-child {
+  margin-bottom: 0px;
 }

@@ -8,13 +8,3 @@
   padding-left: 0;
 }
 
-.footer__column-links a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer__column-links a:hover {
-  transition: color .5s linear;
-  color: #575757;
-}
-
